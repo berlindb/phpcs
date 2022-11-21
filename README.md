@@ -1,4 +1,4 @@
-# Hybrid PHPCS ruleset for BerlinDB development
+# PHPCS ruleset for BerlinDB development
 
 - [PHP_CodeSniffer](https://github.com/squizlabs/PHP_CodeSniffer)
 - [PSR-12](https://www.php-fig.org/psr/psr-12/)
@@ -21,10 +21,3 @@ composer require --dev berlindb/phpcs
 
 ./vendor/bin/phpcs --standard=berlindb src/
 ```
-
-### About the `@package` tag
-
-- The origins of the `@package` tag are in [PEAR](https://pear.php.net/manual/en/standards.header.php)
-  where packages are called for example `Net_Ping`
-- You can put your Composer package name there: `yoast/phpunit-polyfills`
-- Or you can use your WordPress.org plugin slug: `wordpress-seo`
