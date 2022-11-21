@@ -237,7 +237,7 @@
     </rule>
 
     <!-- Own rules -->
-    <rule ref="PSR12NeutronRuleset.Strings.ConcatenationUsage">
+    <rule ref="berlindb.Strings.ConcatenationUsage">
         <severity>0</severity>
         <type>warning</type>
     </rule>
