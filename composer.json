@@ -13,7 +13,7 @@
         "dealerdirect/phpcodesniffer-composer-installer": "^0.5.0"
     },
     "scripts": {
-        "test:cs": "phpcs --standard=PHPCSDev PSR12NeutronRuleset/",
+        "test:cs": "phpcs --standard=PHPCSDev berlindb/",
         "test:xml": "tests/xmllint.sh"
     },
     "require-dev": {
