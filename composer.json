@@ -1,7 +1,7 @@
 {
-    "name": "szepeviktor/phpcs-psr-12-neutron-hybrid-ruleset",
+    "name": "berlindb/phpcs",
     "type": "phpcodesniffer-standard",
-    "description": "Hybrid PHPCS ruleset for OOP WordPress development",
+    "description": "PHPCS ruleset for BerlinDB development",
     "license": "MIT",
     "require": {
         "php": "^7.1 || ^8.0",
