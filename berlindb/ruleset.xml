@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
-<ruleset name="PSR12NeutronRuleset">
-    <description>PSR-12 and Neutron hybrid Ruleset.</description>
+<ruleset name="berlindb">
+    <description>BerlinDB Ruleset.</description>
 
     <rule ref="PSR12"/>
 
@@ -109,6 +109,7 @@
         <!-- https://github.com/sirbrillig/phpcs-import-detection/issues/45 -->
         <exclude name="ImportDetection.Imports.RequireImports"/>
     </rule>
+
     <!-- WordPress-Core opposite rules -->
     <rule ref="Generic.Arrays.DisallowLongArraySyntax"/>
     <rule ref="Generic.ControlStructures.DisallowYodaConditions"/>
